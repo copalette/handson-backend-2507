@@ -33,13 +33,13 @@ Node.js + Express + SQLite + Prisma を使用した開発用 API サーバーテ
 npm install
 
 # データベースのセットアップ
-npm prisma migrate dev
+npx prisma migrate dev
 
 # 開発サーバー起動
 npm run dev
 
 # 別ターミナルでPrisma Studio起動
-npm prisma studio
+npx prisma studio
 ```
 
 これで以下にアクセスできます：
@@ -65,9 +65,9 @@ curl http://localhost:3000/health
 - `npm run dev` - ローカル開発サーバー起動（nodemon使用）
 
 ### データベース操作
-- `npm prisma migrate dev` - データベースマイグレーションの実行
-- `npm prisma migrate reset` - データベースのリセット（全データ削除）
-- `npm prisma studio` - Prisma Studio を起動
+- `npx prisma migrate dev` - データベースマイグレーションの実行
+- `npx prisma migrate reset` - データベースのリセット（全データ削除）
+- `npx prisma studio` - Prisma Studio を起動
 
 ## エンドポイント
 
@@ -116,5 +116,5 @@ app.get('/api/users', async (req, res) => {
 
 ### データベーステーブルの追加
 1. `prisma/schema.prisma` にモデルを追加
-2. `npm prisma migrate dev --name add_new_table` を実行
+2. `npx prisma migrate dev --name add_new_table` を実行
 3. Prisma Studio で新しいテーブルを確認
