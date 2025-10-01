@@ -2,10 +2,17 @@
 
 Node.js + Express + SQLite + Prisma を使用した開発用 API サーバーテンプレートです。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yVuB3JKwkDM?si=MOXYd0HHAiPclmqG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## 📺 解説動画
+- イベント：https://craftstadium.connpass.com/event/359642/
+- 資料：https://www.slideshare.net/slideshow/api-web-_by-craftstadium/281357921
 
-イベント：https://craftstadium.connpass.com/event/359642/
-資料：https://www.slideshare.net/slideshow/api-web-_by-craftstadium/281357921
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=yVuB3JKwkDM">
+    <img src="https://img.youtube.com/vi/yVuB3JKwkDM/maxresdefault.jpg" width="80%" alt="Watch the tutorial">
+  </a>
+  
+  **[ハンズオン解説動画を見る（YouTube）](https://www.youtube.com/watch?v=yVuB3JKwkDM)**
+</div>
 
 ## 機能
 
